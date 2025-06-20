@@ -1,0 +1,10 @@
+import fs from 'fs';
+import path from 'path';
+
+const logFilePath = path.join(process.cwd(), 'logs', 'debug.log');
+
+function logMessage(message) {
+    fs.appendFileSync(logFilePath, `${new Date().toISOString()} - ${message}\n`);
+}
+
+logMessage("App started successfully!");

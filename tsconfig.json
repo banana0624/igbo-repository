@@ -1,0 +1,35 @@
+// "$schema": "https://json.schemastore.org/tsconfig"
+
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ESNext"],
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noEmit": false,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@lib/*": ["lib/*"],
+      "@utils/*": ["utils/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@types/*": ["../types/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src/**/*", "*.ts", "scripts", "lib/**/*"],
+  "exclude": ["node_modules", "dist", "build"]
+}
