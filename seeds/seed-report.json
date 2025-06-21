@@ -1,0 +1,37 @@
+{
+  "SEED_VERSION": "0.1.0",
+  "roles": [
+    {
+      "name": "admin",
+      "description": "System administrator"
+    },
+    {
+      "name": "moderator",
+      "description": "Content reviewer"
+    },
+    {
+      "name": "archivist",
+      "description": "Cultural records manager"
+    }
+  ],
+  "permissions": [
+    {
+      "action": "create_entry",
+      "description": "Can create entries"
+    },
+    {
+      "action": "edit_entry",
+      "description": "Can edit entries"
+    },
+    {
+      "action": "delete_entry",
+      "description": "Can delete entries"
+    },
+    {
+      "action": "review_submissions",
+      "description": "Can moderate submissions"
+    }
+  ],
+  "timestamp": "2025-06-21T07:20:47.858Z",
+  "hash": "182459781e0ea4462dd7b4e8b780a095a59925c909d8317b7061ea145a6b61b3"
+}
