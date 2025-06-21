@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "dependencies": {
+    "@prisma/client": "^6.10.1",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
@@ -32,6 +33,7 @@
     "autoprefixer": "^10.4.21",
     "nodemon": "^3.1.10",
     "postcss": "^8.5.5",
+    "prisma": "^6.10.1",
     "tailwindcss": "^4.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
