@@ -1,0 +1,19 @@
+[
+  {
+    "revertedSeed": "base_roles_permissions",
+    "rollbackType": "manual",
+    "reason": "schema evolution",
+    "timestamp": "2025-06-21T00:00:00.000Z",
+    "performedBy": "theo",
+    "rollbackNotes": "Template entry—future reversals will be signed and appended."
+  },
+  {
+    "revertedSeed": "base_roles_permissions",
+    "rollbackType": "",
+    "reason": "manual",
+    "timestamp": "2025-06-21T08:02:38.122Z",
+    "performedBy": "Schema redesign to support scoped permission levels",
+    "rollbackNotes": "👤 Who performed the rollback:",
+    "hash": "d083b33e00d21467c79ed24f3f99321dcc1091b3406e458ac18c18ec4e6bfa0e"
+  }
+]
